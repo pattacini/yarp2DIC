@@ -4,7 +4,7 @@ These scripts demonstrate how to easily interface [`Yarp`](https://github.com/ro
 with **MATLAB**/**Simulink** without relying on [Java bindings](http://wiki.icub.org/yarpdoc/yarp_swig.html).
 
 To this end we can profitably exploit the **Instrument Control Toolbox**
-which provides a simple access to sockets, in particular through the [`tcpip`](http://www.mathworks.com/help/instrument/tcpip.html) command.
+which provides a simple access to sockets, in particular through the [`tcpip`](http://www.mathworks.com/help/instrument/tcpip.html) function.
 Having a socket in MATLAB enables us to directly talk to `Yarp` according to the rules described
 [here](http://wiki.icub.org/yarpdoc/yarp_without_yarp.html).
 
