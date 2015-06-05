@@ -4,8 +4,8 @@ These scripts demonstrate how to easily interface [`Yarp`](https://github.com/ro
 with **MATLAB**/**Simulink** without relying on [Java bindings](http://wiki.icub.org/yarpdoc/yarp_swig.html).
 
 To this end we can profitably exploit the **Direct Interface Communication** Toolbox
-which provides a simple access to sockets. Having a socket in MATLAB enables
-us to directly talk to `Yarp` according to a bunch of rules described
+which provides a simple access to sockets, in particular through the [`tcpip`](http://www.mathworks.com/help/instrument/tcpip.html) command.
+Having a socket in MATLAB enables us to directly talk to `Yarp` according to a bunch of rules described
 [here](http://wiki.icub.org/yarpdoc/yarp_without_yarp.html).
 
 Just for testing purpose, a [Simulink model](https://github.com/pattacini/yarp2DIC/blob/master/yarpSimTest.mdl)
