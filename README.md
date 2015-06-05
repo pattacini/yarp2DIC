@@ -16,7 +16,7 @@ is available to read from and write to `Yarp` world.
 </p>
 
 #### Instructions
-Launch the following in three different shells:
+Launch the following commands in three different shells:
 ```
 $1> yarpserver
 $2> yarp write /write
