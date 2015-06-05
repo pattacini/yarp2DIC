@@ -11,7 +11,9 @@ Having a socket in MATLAB enables us to directly talk to `Yarp` according to the
 Just for testing purpose, a [Simulink model](https://github.com/pattacini/yarp2DIC/blob/master/yarpSimTest.mdl)
 is available to read from and write to `Yarp` world.
 
-![](https://github.com/pattacini/yarp2DIC/blob/master/img/model.png)
+<p align="center">
+  <img src="https://github.com/pattacini/yarp2DIC/blob/master/img/model.png"/>
+</p>
 
 #### Instructions
 Launch the following in three different shells:
