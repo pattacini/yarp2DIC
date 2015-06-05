@@ -20,5 +20,7 @@ $1> yarpserver
 $2> yarp write /write
 $3> yarp read /read
 ```
-Then, run the simulation and type `two numbers` in the shell where you've opened
-the `/write` port.
+Then, run the simulation and type `any two numbers` in the shell where you've opened
+the `/write` port. Check out the model's display as well as the `/read` port output.
+
+Have fun!
