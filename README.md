@@ -1,28 +1,28 @@
 # yarp2IC
 
-These scripts demonstrate how to easily interface [`Yarp`](https://github.com/robotology/yarp)
+These scripts demonstrate how to easily interface [`YARP`](https://github.com/robotology/yarp)
 with **MATLAB**/**Simulink** without relying on [Java bindings](http://wiki.icub.org/yarpdoc/yarp_swig.html).
 
 To this end we can profitably exploit the **Instrument Control Toolbox**
 which provides a simple access to sockets, in particular through the [`tcpip`](http://www.mathworks.com/help/instrument/tcpip.html) function.
-Having a socket in MATLAB enables us to directly talk to `Yarp` according to the rules described
+Having a socket in MATLAB enables us to directly talk to `YARP` according to the rules described
 [here](http://wiki.icub.org/yarpdoc/yarp_without_yarp.html).
 
-Just for testing purpose, a [Simulink model](https://github.com/pattacini/yarp2DIC/blob/master/yarpSimTest.mdl)
-is available to read from and write to `Yarp` world.
+Just for testing purpose, a [Simulink model](/yarpSimTest.mdl)
+is available to read from and write to `YARP` world.
 
-<p align="center">
-  <img src="https://github.com/pattacini/yarp2DIC/blob/master/img/model.png"/>
-</p>
+![model](/assets/model.png)
 
 #### Instructions
 Launch the following commands in three different shells:
-```
+
+```sh
 $1> yarpserver
 $2> yarp write /write
 $3> yarp read /read
 ```
+
 Then, run the simulation and type `any two numbers` in the shell where you've opened
 the `/write` port. Check out the model's display as well as the `/read` port output.
 
-Have fun!
+Have fun :tada:
