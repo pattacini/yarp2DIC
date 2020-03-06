@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.60"
+    ComputedModelVersion    "1.61"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -142,9 +142,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "upattacini"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Fri Mar 06 10:08:54 2020"
-  RTWModifiedTimeStamp	  505389978
-  ModelVersionFormat	  "1.%<AutoIncrement:60>"
+  LastModifiedDate	  "Fri Mar 06 10:27:58 2020"
+  RTWModifiedTimeStamp	  505391274
+  ModelVersionFormat	  "1.%<AutoIncrement:61>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "disabled"
@@ -1356,7 +1356,7 @@ Model {
       ZOrder		      3
       BackgroundColor	      "[0.756863, 0.756863, 0.756863]"
       DropShadow	      on
-      ShowName		      off
+      HideAutomaticName	      off
       RequestExecContextInheritance off
       ContentPreviewEnabled   on
       Object {
