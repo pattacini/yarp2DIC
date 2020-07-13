@@ -1,4 +1,7 @@
-# yarp2IC
+yarp2IC
+=======
+
+[![View Interface YARP with Instrument Control Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/51109-interface-yarp-with-instrument-control-toolbox)
 
 These scripts demonstrate how to easily interface [`YARP`](https://github.com/robotology/yarp)
 with **MATLAB**/**Simulink** without relying on [Java bindings](http://wiki.icub.org/yarpdoc/yarp_swig.html).
